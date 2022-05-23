@@ -1,0 +1,12 @@
+name: dockercompose3022177671879564692
+services:
+  messagebatching:
+    build:
+      context: C:\Development\QueueMsgBatching\MessageBatching
+      dockerfile: MessageBatching/Dockerfile
+    image: messagebatching
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose3022177671879564692_default
