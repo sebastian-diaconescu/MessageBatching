@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TV1GNAa8b28QrQdcnLmTN3URuJvE+Oq/4cpIdYb3tIRBzoyLdybB7Kwv64yk9hf235vLcxShscqnRBsg7lp0tg==",
+  "dgSpecHash": "cnYUebGuYkEr8J9W1b8dGA6cM5Qyb3i71cCGmoA7z8ytgkGoREYptZuviE+OF6DaantxRM2qgCM2UbuXOVWDJA==",
   "success": true,
   "projectFilePath": "C:\\Development\\QueueMsgBatching\\MessageBatching\\MessageBatching\\QueueProducer.csproj",
   "expectedPackageFiles": [

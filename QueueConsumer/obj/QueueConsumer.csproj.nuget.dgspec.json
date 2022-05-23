@@ -4,14 +4,14 @@
     "C:\\Development\\QueueMsgBatching\\MessageBatching\\QueueConsumer\\QueueConsumer.csproj": {}
   },
   "projects": {
-    "C:\\Development\\QueueMsgBatching\\Domain\\Domain.csproj": {
+    "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\QueueMsgBatching\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Development\\QueueMsgBatching\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\e-sndu\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\QueueMsgBatching\\Domain\\obj\\",
+        "outputPath": "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\e-sndu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,8 +84,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Development\\QueueMsgBatching\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Development\\QueueMsgBatching\\Domain\\Domain.csproj"
+              "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Development\\QueueMsgBatching\\MessageBatching\\Domain\\Domain.csproj"
               }
             }
           }

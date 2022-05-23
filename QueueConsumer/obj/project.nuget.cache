@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7qsCAzhyO1kekFSblL74z1dZQt1bkfouaoyP7d4Hf6zbdsCO0b44ei5vOeU5YKa4FQAl1LvgbncrMXfQtACiNA==",
+  "dgSpecHash": "I5ZsgJ2jSW8F/VXboOb01qe5KjJGvrYLy44DWLmYa16JRkkQAcoiwIsgsMbOFWqY6D86WkSVBla8h5zvJqE68Q==",
   "success": true,
   "projectFilePath": "C:\\Development\\QueueMsgBatching\\MessageBatching\\QueueConsumer\\QueueConsumer.csproj",
   "expectedPackageFiles": [
