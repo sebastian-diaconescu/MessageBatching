@@ -1,6 +1,5 @@
 ﻿using Domain;
 using MassTransit;
-using MassTransit.Caching;
 using Microsoft.Extensions.Hosting;
 
 namespace QueueProducer;
@@ -16,10 +15,12 @@ internal class ProducerService : IHostedService
 
     public async Task StartAsync(CancellationToken cancellationToken)
     {
-        await _publishEndpoint.Publish<QueueMessage>(new QueueMessage()
-        {
-            Value = "test"
-        }, cancellationToken);
+        Thread.Sleep(TimeSpan.FromSeconds(20));
+        for (var i = 0; i < 10; i++)
+            await _publishEndpoint.Publish(new QueueMessage
+            {
+                Value = "test"
+            }, cancellationToken);
     }
 
     public Task StopAsync(CancellationToken cancellationToken)
