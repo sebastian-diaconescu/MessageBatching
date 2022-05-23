@@ -15,10 +15,10 @@ namespace QueueProducer
                     {
                         x.UsingRabbitMq((context, cfg) =>
                         {
-                            cfg.Host("rabbitmq", "/", h =>
+                            cfg.Host("rabbit1", "/", h =>
                             {
-                                h.Username("guest");
-                                h.Password("guest");
+                                h.Username("admin");
+                                h.Password("admin");
                             });
 
                             cfg.ConfigureEndpoints(context);
